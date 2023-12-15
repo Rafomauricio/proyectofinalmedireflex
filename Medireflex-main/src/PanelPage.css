@@ -1,0 +1,68 @@
+/* PanelPage.css */
+
+.panel-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .chart-container {
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .social-container,
+  .suggestions-container {
+    margin-top: 20px;
+    background-color: #000; /* Fondo negro */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilos para los botones de las redes sociales */
+  .social-container .fa {
+    color: #007bff; /* Color celeste */
+    transition: color 0.3s ease;
+  }
+  
+  .social-container .fa:hover {
+    color: #0056b3; /* Cambio de color al hacer hover */
+    cursor: pointer;
+  }
+  
+  /* Estilos para el formulario de sugerencias */
+  .suggestions-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .suggestions-container input,
+  .suggestions-container textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  .suggestions-container button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .suggestions-container button:hover {
+    background-color: #0056b3;
+  }
+  
